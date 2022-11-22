@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/link.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <title>Main page</title>
+</head>
+
+<body>
+    
+    
+    <main>
+        <div class="hero">
+            <div class="container">
+                
+                <div class="row">
+                    <div class="col-3">
+                        <div>
+                            <div class="theme-picker">
+                                <span class="theme dark select"></span>
+                                <span class="theme light"></span>
+                                <span class="theme purple"></span>
+                            </div>
+                            
+                            <div class="navigation">
+                                <ul class="p-0">
+                                    <li>
+                                        <a href="./index.html">
+                                            <span class="icon"><i class="fab fa-apple"></i></span>
+                                            <span class="title">Apple</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="./index.html">
+                                            <span class="icon"><i class="fa fa-house-user"></i></span>
+                                            <span class="title">Products</span>
+                                        </a>
+                                    </li>
+                                    
+                                    
+                                    
+                                    <li>
+                                        <a href="./order.html">
+                                            <span class="icon"><i class="fa-solid fa-cart-plus"></i></span>
+                                            <span class="title">Orders</span>
+                                        </a>
+                                    </li>
+                                    
+                                    <li>
+                                        <a href="./admin.html">
+                                            <span class="icon"><i class="fa fa-user"></i></span>
+                                            <span class="title">Admin</span>
+                                        </a>
+                                    </li>
+                                    
+                                    <li>
+                                        <a class="signout" href="./login.html" targer="blank">
+                                            <span class="icon"><i class="fa fa-arrow-right-from-bracket"></i></span>
+                                            <span class="title">Log out</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                                
+                                
+                                <div class="toggle"></div>
+                            </div>
+                            
+                            
+                        </div>
+                    </div>
+                    <div class="col-9">
+                        <ul class="data-list row list-unstyled justify-content-center">
+                            
+                        </ul>
+                    </div>
+                </div>
+                
+            </div>
+            
+        </div>
+    </main>
+    <template class="data-template">
+        <li class="data-item col-4">
+            <div class="bg-secondary p-3 rounded-4">
+                <span class="data-title text-center d-block mb-3 fs-3">name</span>
+                
+                <img class="data-img rounded-4 mb-2" src="" width="150" height="150" alt="">
+                
+                <p class="data-text fs-4 text-center">description</p>
+                <div class="d-flex justify-content-between align-items-baseline">
+                    <span class="fs-4 p-2 bg-warning rounded-5 ">Price:$<span
+                        class="me-2 data-price badge bg-gradient bg-danger p-2">price</span></span>
+                        <button class="btn buy btn-info p-2 w-25">Buy</button>
+                    </div>
+                </div>
+            </li>
+        </template>
+        
+        <script src="https://code.jquery.com/jquery-3.6.1.min.js"
+        integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+        <script src="./js/link.js"></script>
+        <script src="./js/main.js"></script>
+    </body>
+    
+    </html>

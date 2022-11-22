@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <title>Registr</title>
+</head>
+<body class="registr-page">
+
+    <div class="container">
+        <form class="form p-5 forma">
+            <p class="text-center fw-bolder fs-3 text-bg-danger rounded-5">CREATE ACCOUNT</p>
+            <input class="form-control mb-3 name-input rounded-5" type="text" placeholder="Enter your user name" required>
+            <input class="form-control mb-3 email-input rounded-5" type="email" placeholder="Enter your email address" required>
+            <input class="form-control mb-3 numberinput rounded-5" type="tel" placeholder="Enter your phone number" required>
+            
+           <label class="d-flex align-items-baseline">
+            <input class="form-control mb-3 w-50 me-3 pasword-input rounded-5" type="password" placeholder="Enter your password" required>
+            <button class="btn btn-primary rounded-5 open" type="submit">show</button>
+           </label>
+           <label class="d-block mb-2">
+           <input type="checkbox" required> I agree to the <a href="#">Terms and Conditions</a>
+           </label>
+           <button class="btn btn-primary rounded-5 " type="submit">Sign up</button>
+        </form>
+    </div>
+    
+    <script src="./js/registr.js"></script>
+</body>
+</html>
